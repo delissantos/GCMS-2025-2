@@ -245,5 +245,10 @@ public class HomeController {
     @RequestMapping("/delis")
     public @ResponseBody String greetingDelis() {
     return "Hello, Deliss!?!?";
+    }
+//Pull Request
+    @RequestMapping("/delispull")
+    public @ResponseBody String greetingDelisPull() {
+    return "Hello, Deliss Pull!?!?";
 }
 }
